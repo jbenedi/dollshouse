@@ -38,29 +38,44 @@ body {
 }
 h1, h2, h3, h4, h5, h6, nav a  {
   font-family: 'Raleway', sans-serif;
-  font-weight: 100
+  font-weight: 100;
 }
 h1 {
   font-family: Rye;
-  font-size: 5em
+  font-size: 5em;
+  font-weight: 100;
+  color: #fff;
+  padding-top: 3.5em
 }
 h2 {
   font-family: Rye;
-  font-size: 3.5em
+  font-size: 3.5em;
+  font-weight: 100;
+  color: #fff;
 }
 h3 {
   font-family: Rye;
-  font-size: 2.2em
+  font-size: 2.2em;
+  font-weight: 100;
+  color: #fff;
 }
 p {
   font-family: Rye;
-  color: white;
-  width: 50%;
+  font-weight: 100;
+  color: #fff;
+  width: 55%;
   margin: auto;
+  padding-top: 2em
+}
+
+article {
+  padding: 0 0;
+  margin: 0;
+  height: 100%
 }
 
 section:nth-of-type(1) {
-  background: url("https://jbenedict.work/dollshouse/assets/img/wife3.png");
+  background: url("https://jbenedict.work/dollshouse/assets/img/wife3.png") center top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -76,29 +91,6 @@ section:nth-of-type(2) {
   background-size: cover;
   height: 1950px;
   text-align: center;
-}
-article {
-  padding: 0 0;
-  margin: 0;
-  height: 100%
-}
-section article h1 {
-  padding-top: 3em
-}
-a.btn-download-init {
-  border: 1px solid #fff;
-  color: #fff;
-  display: inline-block;
-  padding: 1em 2em;
-  border-radius: 6px;
-  text-decoration: none;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 100
-}
-a.btn-download-init:hover {
-  border: 1px solid #1FE0D4;
-  color: #1FE0D4;
-  background: rgba(31,224,212,0.1);
 }
 section:nth-of-type(1) article:nth-of-type(1) h1,
 section:nth-of-type(1) article:nth-of-type(1) h3 {
@@ -228,63 +220,41 @@ section:nth-of-type(3) article:nth-of-type(1) {
 
 
 <body>
+
   <section>
     <article class="parallax-img-container">
       <h1>A Doll's Frontier</h1>
       <h3>Reimagining Ibsen’s Classic in the Wild West</h3>
-	  <p>“A Doll’s House” by Henrik Ibsen, first staged in 1879, revolutionized the discussion of gender roles, societal expectations, and personal freedom in a rigid Victorian context. My production reimagines this groundbreaking play set in the Wild West, where the dusty, lawless frontier becomes the stage for Nora’s transformation. By weaving together themes of gender roles, law & order, social reputation, and the frontier’s demand for self-reliance, I aim to present a production that resonates with contemporary audiences while remaining faithful to Ibsen’s critical spirit.</p>
+	  <p style="font-size: 30px; padding-bottom: 225px;">🠋</p>
+	  <p>“A Doll’s House” by Henrik Ibsen, first performed in 1879, helped change many things by questioning gender roles, society’s rules, and personal freedom in strict Victorian times. This version sets the story in the Wild West, where the rough, lawless frontier becomes the backdrop for Nora’s journey of change. By mixing themes of gender roles, law and order, social reputation, and the need to be self reliant on the frontier, my version connects with today’s audiences while staying in tune with Ibsen’s message.</p>
       <!-- images for parallax -->
-      <img src="https://jbenedict.work/dollshouse/assets/img/assets/dust1.png" class="parallax-move" data-ps-z-index="1" data-ps-speed="1" data-ps-vertical-position="700" data-ps-horizontal-position="420" />
+      <img src="https://jbenedict.work/dollshouse/assets/img/assets/dust2.png" class="parallax-move" data-ps-z-index="1" data-ps-speed="1" data-ps-vertical-position="700" data-ps-horizontal-position="420" />
       <img src="https://jbenedict.work/dollshouse/assets/img/assets/dust2.png" class="parallax-move" data-ps-z-index="1" data-ps-speed="0.5" data-ps-vertical-position="700" data-ps-horizontal-position="220" />
       <img src="https://jbenedict.work/dollshouse/assets/img/assets/dust3.png" class="parallax-move" data-ps-z-index="1" data-ps-speed="1" data-ps-vertical-position="700" data-ps-horizontal-position="300" />
-      <img src="https://jbenedict.work/dollshouse/assets/img/assets/dust4.png" class="parallax-move" data-ps-z-index="1" data-ps-speed="0.5" data-ps-vertical-position="500" data-ps-horizontal-position="620" />
+      <img src="https://jbenedict.work/dollshouse/assets/img/assets/dust3.png" class="parallax-move" data-ps-z-index="1" data-ps-speed="0.5" data-ps-vertical-position="500" data-ps-horizontal-position="620" />
       <img src="https://jbenedict.work/dollshouse/assets/img/assets/dust5.png" class="parallax-move" data-ps-z-index="1" data-ps-speed="1" data-ps-vertical-position="600" data-ps-horizontal-position="0" />
       <img src="https://jbenedict.work/dollshouse/assets/img/assets/dust6.png" class="parallax-move" data-ps-z-index="1" data-ps-speed="0.4" data-ps-vertical-position="200" data-ps-horizontal-position="520" />
       <img src="https://jbenedict.work/dollshouse/assets/img/assets/dust7.png" class="parallax-move" data-ps-z-index="1" data-ps-speed="0.3" data-ps-vertical-position="300" data-ps-horizontal-position="320" />
       <img src="https://jbenedict.work/dollshouse/assets/img/assets/stick.png" class="parallax-move" data-ps-z-index="2" data-ps-speed="1" data-ps-vertical-position="700" data-ps-horizontal-position-right="0" />
-	  <img src="https://jbenedict.work/dollshouse/assets/img/assets/birds.png" class="parallax-move" data-ps-z-index="4" data-ps-speed="1" data-ps-vertical-position="-300" data-ps-horizontal-position="600" />
+	  <img src="https://jbenedict.work/dollshouse/assets/img/assets/birds.png" class="parallax-move" data-ps-z-index="4" data-ps-speed="1" data-ps-vertical-position="-300" data-ps-horizontal-position="500" />
     </article>
   </section>
 
   <section>
     <article class="parallax-img-container">
-      <h1>Parallax Image Scroll</h1>
-      <h3>Give life to your website</h3>
-	  <p>All the content inside the article will not be affected by parallaximg.js</p>
+      <h1>A Doll's Frontier</h1>
+      <h3>Reimagining Ibsen’s Classic in the Wild West</h3>
+	  <p>“A Doll’s House” by Henrik Ibsen, first performed in 1879, helped change many things by questioning gender roles, society’s rules, and personal freedom in strict Victorian times. This version sets the story in the Wild West, where the rough, lawless frontier becomes the backdrop for Nora’s journey of change. By mixing themes of gender roles, law and order, social reputation, and the need to be self reliant on the frontier, my version connects with today’s audiences while staying in tune with Ibsen’s message.</p>
       <!-- images for parallax -->
-      <img src="https://cyntss.github.io/Parallax-img-scroll/img/assassins/smoke-01.png" class="parallax-move" data-ps-z-index="1" data-ps-speed="1" data-ps-vertical-position="700" data-ps-horizontal-position="420" />
-      <img src="https://cyntss.github.io/Parallax-img-scroll/img/assassins/smoke-02.png" class="parallax-move" data-ps-z-index="1" data-ps-speed="0.5" data-ps-vertical-position="700" data-ps-horizontal-position="220" />
-      <img src="https://cyntss.github.io/Parallax-img-scroll/img/assassins/smoke-03.png" class="parallax-move" data-ps-z-index="1" data-ps-speed="1" data-ps-vertical-position="700" data-ps-horizontal-position="300" />
-      <img src="https://cyntss.github.io/Parallax-img-scroll/img/assassins/smoke-04.png" class="parallax-move" data-ps-z-index="1" data-ps-speed="0.5" data-ps-vertical-position="500" data-ps-horizontal-position="620" />
-      <img src="https://cyntss.github.io/Parallax-img-scroll/img/assassins/smoke-05.png" class="parallax-move" data-ps-z-index="1" data-ps-speed="1" data-ps-vertical-position="600" data-ps-horizontal-position="0" />
-      <img src="https://cyntss.github.io/Parallax-img-scroll/img/assassins/smoke-06.png" class="parallax-move" data-ps-z-index="1" data-ps-speed="0.4" data-ps-vertical-position="200" data-ps-horizontal-position="520" />
-      <img src="https://cyntss.github.io/Parallax-img-scroll/img/assassins/smoke-07.png" class="parallax-move" data-ps-z-index="1" data-ps-speed="0.3" data-ps-vertical-position="300" data-ps-horizontal-position="320" />
-      <img src="https://cyntss.github.io/Parallax-img-scroll/img/assassins/smoke-06.png" class="parallax-move" data-ps-z-index="1" data-ps-speed="0.2" data-ps-vertical-position="-900" data-ps-horizontal-position="220" />
-      <img src="https://cyntss.github.io/Parallax-img-scroll/img/assassins/smoke-05.png" class="parallax-move" data-ps-z-index="1" data-ps-speed="0.3" data-ps-vertical-position="-600" data-ps-horizontal-position="150" />
-      <img src="https://cyntss.github.io/Parallax-img-scroll/img/assassins/stick.png" class="parallax-move" data-ps-z-index="2" data-ps-speed="1" data-ps-vertical-position="1200" data-ps-horizontal-position-right="0" />
-      <img src="https://cyntss.github.io/Parallax-img-scroll/img/assassins/003.png" class="parallax-move" data-ps-z-index="2" data-ps-speed="0.4" data-ps-vertical-position="-200" data-ps-horizontal-position="0" />
-      <img src="https://cyntss.github.io/Parallax-img-scroll/img/assassins/002.png" class="parallax-move" data-ps-z-index="3" data-ps-speed="0.5" data-ps-vertical-position="-400" data-ps-horizontal-position="0" />
-      <img src="https://cyntss.github.io/Parallax-img-scroll/img/assassins/birds.png" class="parallax-move" data-ps-z-index="4" data-ps-speed="1" data-ps-vertical-position="-300" data-ps-horizontal-position="600" />
-      <img src="https://cyntss.github.io/Parallax-img-scroll/img/assassins/black-cloud.png" class="parallax-move" data-ps-z-index="5" data-ps-speed="0.35" data-ps-vertical-position="-400" data-ps-horizontal-position="0">
-    </article>
-  </section>
-  
-  <section>
-    <article class="parallax-img-container">
-      <h2>Fixed content</h2>
-      <p>All the content inside the article will not be affected by parallaximg.js</p>
-      <h3>I made this inspired by PlayStation and Assassins Unity</h3>
-      <img id="parallax-img-2" class="parallax-move" src="https://cyntss.github.io/Parallax-img-scroll/img/triangle.png" />
-      <img id="parallax-img-3" class="parallax-move" src="https://cyntss.github.io/Parallax-img-scroll/img/square.png" />
-      <img id="parallax-img-4" class="parallax-move" src="https://cyntss.github.io/Parallax-img-scroll/img/circle.png" />
-      <img id="parallax-img-5" class="parallax-move" src="https://cyntss.github.io/Parallax-img-scroll/img/ex.png" />
-      <img id="parallax-img-6" class="parallax-move" src="https://cyntss.github.io/Parallax-img-scroll/img/triangle.png" />
-      <img id="parallax-img-7" class="parallax-move" src="https://cyntss.github.io/Parallax-img-scroll/img/square.png" />
-      <img id="parallax-img-7" class="parallax-move" src="https://cyntss.github.io/Parallax-img-scroll/img/circle.png" />
-      <img id="parallax-img-5" class="parallax-move" src="https://cyntss.github.io/Parallax-img-scroll/img/ex.png" />
-      <img id="parallax-img-1" class="parallax-move" src="https://cyntss.github.io/Parallax-img-scroll/img/triangle.png" />
-      <img id="parallax-img-4" class="parallax-move" src="https://cyntss.github.io/Parallax-img-scroll/img/square.png" />
-      <img id="parallax-img-3" class="parallax-move" data-ps-vertical-position="200" data-ps-horizontal-position="500" src="img/circle.png" />
+      <img src="https://jbenedict.work/dollshouse/assets/img/assets/dust2.png" class="parallax-move" data-ps-z-index="1" data-ps-speed="1" data-ps-vertical-position="700" data-ps-horizontal-position="420" />
+      <img src="https://jbenedict.work/dollshouse/assets/img/assets/dust2.png" class="parallax-move" data-ps-z-index="1" data-ps-speed="0.5" data-ps-vertical-position="700" data-ps-horizontal-position="220" />
+      <img src="https://jbenedict.work/dollshouse/assets/img/assets/dust3.png" class="parallax-move" data-ps-z-index="1" data-ps-speed="1" data-ps-vertical-position="700" data-ps-horizontal-position="300" />
+      <img src="https://jbenedict.work/dollshouse/assets/img/assets/dust3.png" class="parallax-move" data-ps-z-index="1" data-ps-speed="0.5" data-ps-vertical-position="500" data-ps-horizontal-position="620" />
+      <img src="https://jbenedict.work/dollshouse/assets/img/assets/dust5.png" class="parallax-move" data-ps-z-index="1" data-ps-speed="1" data-ps-vertical-position="600" data-ps-horizontal-position="0" />
+      <img src="https://jbenedict.work/dollshouse/assets/img/assets/dust6.png" class="parallax-move" data-ps-z-index="1" data-ps-speed="0.4" data-ps-vertical-position="200" data-ps-horizontal-position="520" />
+      <img src="https://jbenedict.work/dollshouse/assets/img/assets/dust7.png" class="parallax-move" data-ps-z-index="1" data-ps-speed="0.3" data-ps-vertical-position="300" data-ps-horizontal-position="320" />
+      <img src="https://jbenedict.work/dollshouse/assets/img/assets/stick.png" class="parallax-move" data-ps-z-index="2" data-ps-speed="1" data-ps-vertical-position="700" data-ps-horizontal-position-right="0" />
+	  <img src="https://jbenedict.work/dollshouse/assets/img/assets/birds.png" class="parallax-move" data-ps-z-index="4" data-ps-speed="1" data-ps-vertical-position="-300" data-ps-horizontal-position="500" />
     </article>
   </section>
   
